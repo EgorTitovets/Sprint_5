@@ -35,3 +35,5 @@ class TestLocators:
     BUNS_HEADER_SECTION = [By.XPATH, "//*[@class='text text_type_main-medium mb-6 mt-10' and text()='Булки']"] # Хэдер секции Соусы в конструкторе
     FILLINGS_IN_CONSTRUCTOR = [By.XPATH, "//*[@class='text text_type_main-default' and text()='Начинки']"]  # раздел Начинки в конструкторе
     FILLINGS_HEADER_SECTION = [By.XPATH,"//*[@class='text text_type_main-medium mb-6 mt-10' and text()='Начинки']"]  # Хэдер секции Соусы в конструкторе
+
+    INVALID_PASSWORD= [By.XPATH, "//*[@class='input__error text_type_main-default' and text()='Некорректный пароль']"]
